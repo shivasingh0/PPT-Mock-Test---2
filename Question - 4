@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+
+    nav ul{
+        display: flex;
+        text-align: center;
+        gap: 2rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    li{
+        list-style: none;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    /* Main Content Styles */
+    main{
+      margin: 0 auto;
+      padding: 75px 0;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .left-container {
+      width: 400px;
+      padding: 40px 0;
+      text-align: center;
+      margin-left: 150px;
+    }
+    img{
+        width: 45rem;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    /* Call-to-Action Button Styles */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #555;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      padding: 23px;
+      color: #fff;
+      text-align: center;
+      height: 56px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Services</li></a>
+            <a href=""><li>Contact</li></a>
+        </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="left-container">
+    <h2>Discover Amazing Products</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices rhoncus urna, non commodo neque sollicitudin nec. sit amet, consectetur adipiscing elit. Nulla ultrices rhoncus urna, non commodo neque sollicitudin ne</p>
+    <a href="#" class="button">Learn More</a>
+</div>
+<div>
+    <img src="https://codequotient.com/blog/wp-content/uploads/2020/12/6-Reasons-Why-Having-a-Professional-Coder-Certification-Is-Crucial.jpg" alt="img">
+</div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
