@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album</title>
+    <style>
+      * {
+        overflow: hidden;
+      }
+      .container {
+        display: grid;
+        height: 700px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+      }
+      .box1 {
+        background-color: red;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        display: flex;
+        justify-items: baseline;
+        align-items: end;
+      }
+      .box2 {
+        background-color: maroon;
+      }
+      .box3 {
+        background-color: rgba(165, 162, 162, 0.58);
+      }
+      .box4 {
+        background-color: rgb(255, 162, 0);
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      .box5 {
+        background-color: rgb(0, 221, 255);
+      }
+      .box6 {
+        background-color: pink;
+      }
+      .box7 {
+        background-color: green;
+      }
+      #img1 {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+      }
+      #vid1 {
+        width: 1000px;
+        height: 250px;
+      }
+      #box6 {
+        width: 32rem;
+      }
+      .img {
+        width: 500px;
+        height: 250px;
+      }
+      .box7 {
+        width: 500px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=-1&s=1"
+          alt="img1"
+          id="img1"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww&w=1000&q=80"
+          alt="img8"
+          id="img1"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww&w=1000&q=80"
+          alt="img9"
+          id="img1"
+        />
+      </div>
+      <div class="box box2">
+        <img
+          src="https://www.keysight.com/content/dam/keysight/en/img/prd/services/tech-refresh-services/page-img-tech-refresh-services.jpg"
+          alt="img2"
+          class="img"
+        />
+      </div>
+      <div class="box box3">
+        <img
+          src="https://img.etimg.com/thumb/msid-100272792,width-1070,height-580,imgsize-67710,overlay-economictimes/photo.jpg"
+          alt="img3"
+          class="img"
+        />
+      </div>
+      <div class="box box4">
+        <iframe
+          src="https://www.youtube.com/embed/9sxYNWcLmzU"
+          frameborder="0"
+          id="vid1"
+        ></iframe>
+      </div>
+      <div class="box box5">
+        <img
+          src="https://img.etimg.com/thumb/width-640,height-480,imgsize-62750,resizemode-75,msid-93746237/tech/technology/multinationals-reach-out-to-their-tech-and-legal-experts-to-analyse-impact-of-digital-india-act/tech.jpg"
+          alt="img4"
+          class="img"
+        />
+      </div>
+      <div class="box box6">
+        <img
+          src="https://img.etimg.com/thumb/msid-96754498,width-300,height-225,imgsize-109030,,resizemode-75/tech2-istock.jpg"
+          id="box6"
+          alt=""
+        />
+      </div>
+      <div class="box box7">
+        <img
+          src="https://vignan.ac.in/blog/images/june-21/ai-1.jpg"
+          alt="img5"
+          class="img"
+        />
+      </div>
+    </div>
+  </body>
+</html>
